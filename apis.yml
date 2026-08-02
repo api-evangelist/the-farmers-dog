@@ -1,8 +1,29 @@
 aid: the-farmers-dog
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/the-farmers-dog.png
 name: The Farmer's Dog
-description: 'The Farmer''s Dog is a company surfaced as a portfolio company of forerunner-ventures and
-  added to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: >-
+  The Farmer's Dog is a direct-to-consumer pet health company that delivers
+  fresh, human-grade dog food on a personalized subscription. Customers complete
+  an online profile of their dog (breed, age, weight, activity, health goals) and
+  the company formulates and ships pre-portioned meal plans on a recurring
+  cadence. Founded in 2014 and headquartered in New York City, it is backed by
+  Forerunner Ventures among others and has delivered over one billion meals
+  nationwide. The business runs on a JavaScript/TypeScript stack with an internal
+  "Core API" that powers ordering, subscription management, and its veterinarian
+  program, but the company does not publish a public developer platform, API
+  documentation, or client SDKs. This profile captures its public identity and
+  domain-security posture; there is no public API surface to catalog.
 url: https://raw.githubusercontent.com/api-evangelist/the-farmers-dog/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +33,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- Pet Food
+- Subscription
+- Direct to Consumer
+- Ecommerce
+- Pets
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +51,14 @@ maintainers:
 common:
 - type: Website
   url: https://www.thefarmersdog.com
+- type: GitHubOrganization
+  url: https://github.com/farmersdog
+- type: PrivacyPolicy
+  url: https://www.thefarmersdog.com/content/privacy
+- type: DomainSecurity
+  url: security/the-farmers-dog-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
