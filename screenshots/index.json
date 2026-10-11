@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "the-farmers-dog",
+    "captured_at": "2026-10-11T193843",
+    "source_url": "https://www.thefarmersdog.com",
+    "source_type": "Website",
+    "file": "the-farmers-dog-2026-10-11T193843.png",
+    "bytes": 877989,
+    "capture": "playwright-local"
+  }
+]
